@@ -26,7 +26,7 @@ Analyzing the pageviews of Wikipedia articles can give us an insight into how pe
 
 <div align = center>
 <!-- <img src = '/fig/timeseries.png'> -->
-![image](/fig/timeseries.png)
+![image](fig/timeseries.png)
 </div>
 
 It shows that there is a significant correlation between pageviews of COVID-19-related articles and new Covid cases in that country. Before the outbreak of Covid-19, people may be searching for information on Wikipedia only out of curiosity or concern, so the pageviews were low at that time. However, with the increasing number of new cases, more and more people were seeking updated and accurate information about the pandemic. The pandemic has had a significant impact on people's lives, and it is natural for people to want to learn more about it and how it is affecting the world. As for non-Covid, and mental health, the correlations seem to be insignificant. Especially for Japan, it can be concluded that there are no correlations for these 2 categories.  
