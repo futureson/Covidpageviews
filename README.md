@@ -14,7 +14,7 @@ COVID -19 has caused huge and important shifts in people’s lives due to the im
 Pageviews of Wikipedia, the world’s largest online encyclopedia, could reflect the major developments and shifts in people’s attention during the lifetime of this pandemic. It is critical to track the digital footprints above, which will empower governments to know what the public values thus better responding to potential public health emergencies in the future.
 
 # Our data
-
+{% include time_evolution.html %}
 # Goal
 We want to know how and what people’s attention on health has changed during the different periods of the pandemic. Using the Coronawiki dataset, we obtain the pageviews of different topics related to health, which are then used to analyze their correlation with new Covid cases and the trends following mobility restrictions. 
 
@@ -45,3 +45,8 @@ It appears that for both Italy and Norway, Covid-related pageviews are relativel
 <div align = center>
   <img src="/fig/rader_mental.html">
 </div>
+
+# Correlation between mobility and pageviews
+{% include pageviews_shift.html %}
+Correlation among different countries
+{% include mobility_corr.html %}
