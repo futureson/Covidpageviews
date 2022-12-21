@@ -48,5 +48,7 @@ It appears that for both Italy and Norway, Covid-related pageviews are relativel
 
 # Correlation between mobility and pageviews
 {% include pageviews_shift.html %}
+
 Correlation among different countries
+
 {% include mobility_corr.html %}
