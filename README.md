@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # A peek at covid's impact on physical and mental health through digital footprints
 
 text
