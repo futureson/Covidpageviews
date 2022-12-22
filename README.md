@@ -39,9 +39,12 @@ Then, both Covid and mental health were divided into another 4 categories to inv
 
 {% include rader_covid.html %}
 
+When it comes to mental health, we found out that the correlation coefficients are low for most countries, among which Italy has the highest. In the figure, the top 3 countries were displayed. As the results show, with the development of Covid-19, Italian was struggling more with mild symptoms including stress, and anxiety, and also violence which may be brought by their families. The increasing stress and uncertainty lead them to seek information about how to cope with these feelings and manage their mental health especially for those with only mild symptoms. In addition, some people may be more comfortable seeking information about mental health online because they can do so anonymously. This can be especially important for those who are reluctant to seek help due to stigma or fear of discrimination.
+
 {% include rader_mental.html %}
 
-{% include covid_topic.html %}
+![image](fig/covid20.png)
+![image](fig/mental20.png)
 
 # Correlation between mobility and pageviews
 {% include pageviews_shift.html %}
