@@ -35,9 +35,7 @@ To quantify the correlations, Spearman's rank correlation coefficients were calc
 
 It appears that for both Italy and Norway, Covid-related pageviews are relatively highly correlated with the trends of new cases with correlation coefficients around 0.5. As for non-Covid-related pageviews, the correlations are lower, which was what we expected because it should have nothing to do with the new pandemic. As for the mental health category, it seems to be case by case. The negative correlations can indicate that people are paying more attention to the disease itself, neglecting what they used to care about.  
 
-Then, both Covid and mental health were divided into another 4 categories to investigate which area caught our eye. As for Covid-related articles, those about the pandemic are highly correlated with new cases in most countries, followed by articles about flu. When Covid came, people wanted to know more about other similar pandemics and outbreaks of infectious diseases, which can help them better understand the factors that contribute to the spread of infectious diseases, as well as the strategies that have been successful in controlling and mitigating their impact. Additionally, studying past pandemics can provide valuable insights and lessons for responding to current and future health crises, such as the ongoing Covid-19 pandemic. Since the some symptoms of Covid-19 are similar as flu, people searched more about flu as well. 
-
-Everything is a little bit different in South Korea. It might be caused by the fact that the most popular search engine in South Korea is Naver, and if you search for Covid-19 on Naver, Wikipedia will not appear on the first page.
+Then, both Covid and mental health were divided into another 4 categories to investigate which area caught our eye. As for Covid-related articles, those about the pandemic are highly correlated with new cases in most countries, followed by articles about flu. Everything is a little bit different in South Korea. It might be caused by the fact that the most popular search engine in South Korea is Naver, and if you search for Covid-19 on Naver, Wikipedia will not appear on the first page.
 
 {% include rader_covid.html %}
 
@@ -49,10 +47,27 @@ When it comes to mental health, we found out that the correlation coefficients a
 ![image](fig/mental20.png)
 
 # Correlation between mobility and pageviews
+
+Now, let’s focus on the relationship between mobility change and pageviews. During 2020, many countries declared a state of emergency and implemented mobility restrictions, including the closure of entertainment venues and home isolation. We want to know how people’s attention to different topics related to their movement trend or the government policy. 
+
+As we can see from the figure below, there is clear relation between pageviews and mobility change in Italy. Unlike the previous analysis between new covid case and pageviews, we observe something special here, which is a parallel shift among covid related pageviews and mobility. On the other hand, it does not show in the non-covid and mental cases. This phenomenon drew our attention, we wonder if other countries share the same situation and what would be the best shift that gives the highest correlation. 
+![image](fig/page_mobi_it.png)
+
+Bearing this in mind, we do the correlation analysis between covid related pageviews and mobility change, and find the best shift for each country. Take Italy as an example, if you dragging the button below, you would find the best shift for Italy is 3 weeks.
 {% include pageviews_shift.html %}
 
-Correlation among different countries
+The same shift property applies to other countries as well, as you can see from the table below. We can observe that Asian country (Japan) has the largest shift, and for European country the shifts are all between 2-3 weeks. What might cause the delay? Intuitively, it does take some time for people to take actions after knowing the covid situation from Internet. On the other hand, the mobility change is a reflection of government policy implementation, people are recommended or forced to leave public places and stay at home. It can be inferred from the results that it took on average 3 weeks for virus transmission and restrictions implementation in Europe. The situation was slightly different in Japan, our conjecture is: covid spreads more slowly in Japan and the mobility-related measures were weaker compare with other countries.
+![image](fig/best_shift.png)
 
+Then, we want to know the correlation between each category (covid, non-covid, mental) and mobility change across countries. In order to eliminate the impact of action delay, we use the pageviews data after shift and compute its correlation with mobility. As we can see from the image, covid-related pageviews has a significant positive relation with mobility change, but the correlation of non-covid and mental pageviews is more dispersed and less significant. 
 {% include mobility_corr.html %}
 
+A further interesting causal question would be what people are searching when mobility constraints are implemented. In order to answer this question, we focus on more granular pages, and calculate their relation between mobility. Here, we show the top 20 largest for covid and mental related pages, and top 20 smallest for non-covid related pages. 
 ![image](fig/mobility_barh.png)
+For covid category, we find that pandemic and flu related pages has the highest correlation, potential explanation is people searching for past pandemics and trying to find similarities (such as Hong Kong flu in 1968 and Spanish flu in 1918), they are also engaging in covid related symptoms (such as fatigue and fever). As for mental health, the click on anxiety, death and violence are highly related to mobility change, which could help support the analysis that social distancing increase people’s worries and anxiety about COVID-19. Lastly, if we look at the non-covid related pages, we can see a decrease in the cancer related pages, which reflects a shift in attention from cancer to covid symptoms. 
+
+# Conclusion
+
+# Reference
+
+# Our team
