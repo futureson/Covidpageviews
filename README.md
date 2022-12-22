@@ -40,9 +40,13 @@ To quantify the correlations, Spearman's rank correlation coefficients were calc
 
 It appears that for both Italy and Norway, Covid-related pageviews are relatively highly correlated with the trends of new cases with correlation coefficients around 0.5. As for non-Covid-related pageviews, the correlations are lower, which was what we expected because it should have nothing to do with the new pandemic. As for the mental health category, it seems to be case by case. The negative correlations can indicate that people are paying more attention to the disease itself, neglecting what they used to care about.  
 
+Then, both Covid and mental health were divided into another 4 categories to investigate which area caught our eye. As for Covid-related articles, those about the pandemic are highly correlated with new cases in most countries, followed by articles about flu. Everything is a little bit different in South Korea. It might be caused by the fact that the most popular search engine in South Korea is Naver, and if you search for Covid-19 on Naver, Wikipedia will not appear on the first page.
+
 {% include rader_covid.html %}
 
 {% include rader_mental.html %}
+
+{% include covid_topic.html %}
 
 # Correlation between mobility and pageviews
 {% include pageviews_shift.html %}
