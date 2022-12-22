@@ -1,7 +1,7 @@
 <!--  -->
 <!-- # A peek at covid's impact on physical and mental health through digital footprints
 <!--  -->
- -->
+<!--  --> 
 # Motivation
 *“The world faces two major problems in 2020, the predicted climate change and the unexpected COVID-19 epidemic.”*
 
