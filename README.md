@@ -2,8 +2,6 @@
 # A peek at covid's impact on physical and mental health through digital footprints
 
 
-{% include time.html %}
-
 # Motivation
 *“The world faces two major problems in 2020, the predicted climate change and the unexpected COVID-19 epidemic.”*
 
@@ -69,6 +67,9 @@ Then, we want to know the correlation between each category (covid, non-covid, m
 A further interesting causal question would be what people are searching when mobility constraints are implemented. In order to answer this question, we focus on more granular pages, and calculate their relation between mobility. Here, we show the top 20 largest for covid and mental related pages, and top 20 smallest for non-covid related pages. 
 ![image](fig/mobility_barh.png)
 For covid category, we find that pandemic and flu related pages has the highest correlation, potential explanation is people searching for past pandemics and trying to find similarities (such as Hong Kong flu in 1968 and Spanish flu in 1918), they are also engaging in covid related symptoms (such as fatigue and fever). As for mental health, the click on anxiety, death and violence are highly related to mobility change, which could help support the analysis that social distancing increase people’s worries and anxiety about COVID-19. Lastly, if we look at the non-covid related pages, we can see a decrease in the cancer related pages, which reflects a shift in attention from cancer to covid symptoms. 
+
+# Change points' Impacts
+{% include it_time.html %}
 
 # Conclusion
 
