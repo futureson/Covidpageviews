@@ -1,7 +1,6 @@
 #theme: jekyll-theme-slate
 theme: jekyll-theme-cayman
 title: [Pageviews Moblity Covid!]
-logo: /cover_fig/cover1.png
 description: [Explore the relationship among pageviews,moblity and covid data.]
 
 navigation:
