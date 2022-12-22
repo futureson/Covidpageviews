@@ -1,5 +1,5 @@
 ---
-image: /cover_fig/cover1.png
+image: cover1.png
 ---
 # A peek at covid's impact on physical and mental health through digital footprints
 
