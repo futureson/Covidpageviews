@@ -40,6 +40,7 @@ Health problems related to Covid are a complex topic, and we would like to make 
 
 Here we show an overview of how the pageviews change over time. 
 {% include time_evolution.html %}
+
 # Goal
 We want to know how and what people’s attention on health has changed during the different periods of the pandemic. Using the Coronawiki dataset, we obtain the pageviews of different topics related to health, which are then used to analyze their correlation with new COVID cases and the trends following mobility restrictions. 
 
@@ -127,3 +128,5 @@ We compare the impact of different countries on the covid topic in the figure be
 Thanks to the ADA course for providing us with the original ideas and datasets, although the epidemic is now a thing of the past, we hope we could understand the impact of the COVID-19 on people's behavior through data analysis methods. Some of the research methods in this website are referenced from [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](https://arxiv.org/pdf/2005.08505.pdf) and [Population-scale dietary interests during the COVID-19 pandemic](https://www.nature.com/articles/s41467-022-28498-z), which are two amazing papers!
 
 # Our team
+
+Work is distributed equally to all team members
