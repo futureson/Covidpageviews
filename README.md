@@ -15,7 +15,7 @@ Pageviews of **Wikipedia**, the world’s largest online encyclopedia, could ref
 
 Here are the datasets we got or collected:
  
-- Mobility data from Google and Apple
+- Mobility data from Google
 - Covid cases data from WHO and Johns Hopkins University
 - Pageviews from the Wiki dataset
  
@@ -25,7 +25,7 @@ You can find the complete data about this story [here](https://github.com/epfl-a
  
 The outbreak of Covid in most countries was in the spring of 2020, and we are interested in the mobility of people in the unusual year of 2020, the association of wiki page views with the outbreak, especially from January to October 2020, when Covid was more severe. As a comparison, we also collected data for the same time period in 2019 as a reference for a typical year. What's more, we also have the data discribing the public events of each area, such as the time of first case etc..
  
-In total, we collected wiki pages in 12 different languages, corresponding to 24 different countries，which is shown in the figure below. Thanks to the fact that each entry in the wiki dataset has the same QID for different languages, we only need to identify the entries under the English category to collect all the data. Of course, not all entries will be present under all languages, so there will be a little difference between languages in our dataset. To correspond to the countries in the mobility dataset and Covid cases, we assign different countries according to the proportion of the population speaking different languages. The story we are telling is not about the U.S. and UK, but rather about English speaking countries, etc.
+In total, we collected wiki pages in 12 different languages, corresponding to 24 different countries，which is shown in the figure below. Thanks to the fact that each entry in the wiki dataset has the same QID for different languages, we only need to identify the entries under the English category to collect all the data. Of course, not all entries will be present under all languages, so there will be a little difference between languages in our dataset. To aggregate data in the mobility dataset and Covid cases, we assign different weight according to the population of that country. The story we are telling is not about the U.S. and UK, but rather about English speaking countries, etc.
  
 {% include summary.html %}
 
@@ -49,9 +49,9 @@ We want to know how and what people’s attention on health has changed during t
 
 # Research questions
 
-1. Is there any evidence showing that the trend of pageviews associated with COVID-19 is related to COVID infections? If it does, what’s their causation? How about the non COVID decreases and mental issues?
+1. Is there any evidence showing that the trend of pageviews associated with COVID-19 is related to COVID infections? If it does, what’s their causation?
 2. The stringent policies implemented during the Coronavirus pandemic had reduced human movements. We wonder if there is a correlation between the Wiki pageviews and mobility change? If it does, what’s their causality and what can we infer from the data?
-3. How the intervention event affect the attention on different Wiki topics?
+3. How attention to mental illness has changed during the pandemic?
 
 # New COVID cases and pageviews correlation
 Analyzing the pageviews of Wikipedia articles can give us an insight into how people are using them to share and find information during this unprecedented time. How can the spread of the diseases influence the pageview of Covid-related articles? Is it possible to use this trend to identify other diseases that might be brought by Covid? As mentioned previously, all the collected articles were divided into 3 groups manually, including Covid, non-Covid, and mental health. The figure below shows how the pageviews and new cases change over time for the 3 categories.   
@@ -82,7 +82,7 @@ When it comes to mental health, we found out that the correlation coefficients a
 
 # Mobility change and pageviews correlation
 
-Now, let’s focus on the relationship between mobility change and pageviews. During 2020, many countries declared a state of emergency and implemented mobility restrictions, including stay-at-home lockdowns, cancellation of events and public gatherings, and restrictions on travels. These policies helped to slow the spread of the virus, but also brought side effects to people’s mental health. Are people more concerned about their physical health or mental health during lockdown? In order to answer this question, we introduce **Google Mobility Reports**. By using the similar analysis method as above, we could have a deeper understanding of the relationship between people’s attention shift and their movement change.
+Now, let’s focus on the relationship between mobility change and pageviews. During 2020, many countries declared a state of emergency and implemented mobility restrictions, including stay-at-home lockdowns, cancellation of events and public gatherings, and restrictions on travels. These policies helped to slow the spread of the virus, but also brought side effects to people’s mental health. Are people more concerned about their physical health or mental health during lockdown? In order to answer this question, we introduce **Google Mobility Reports** (in order to show results clearer, we take the negative mobility change here). By using the similar analysis method as above, we could have a deeper understanding of the relationship between people’s attention shift and their movement change.
 
 As we can see from the figure below, there is clear relation between pageviews and mobility change in Italy. Unlike the new covid cases, we observe something special here, which is a parallel shift among covid related pageviews and mobility. On the other hand, we can not observe similar result in the non-covid and mental cases. This phenomenon drew our attention, we wonder if other countries share the same situation or not, and what would be the best shift that gives the highest correlation. 
 ![image](fig/page_mobi_it.png)
@@ -110,9 +110,7 @@ With the **intervention** data, we have the time for each event like first covid
 
 {% include it_time.html %}
 
-From previous studies, the wiki pages related to covid in Italy have the strongest correlation with the reality of covid. Here we show some examples based on *Italy*.
-
-Here, we applied the breakpoint regression of covid-related page traffic under different events and found that attention for covid-related pages peaked at moments when the government took severe social isolation measures (e.g., school closures, lockdown declarations). After that,  people's attention to covid-related pages dropped significantly after these events. The emergence of the first infection rate and the first death case significantly increased the attention to covid-related information.
+From previous studies, the wiki pages related to covid have the strongest correlation with the reality of covid. Here, we applied the breakpoint regression of covid-related page traffic under different events and found that attention for covid-related pages peaked at moments when the government took severe social isolation measures (e.g., school closures, lockdown declarations). After that,  people's attention to covid-related pages dropped significantly after these events. The emergence of the first infection rate and the first death case significantly increased the attention to covid-related information.
 
  {% include mental_it_time.html %}
 
