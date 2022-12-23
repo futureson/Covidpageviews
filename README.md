@@ -29,6 +29,8 @@ In total, we collected wiki pages in 12 different languages, corresponding to 24
  
 {% include summary.html %}
 
+> By placing the arrows on the different categories, you can get the detailed description[**Dsp**] of how we categorize the data.
+
 Which wiki pages to choose for analysis? In our story, we are concerned with three types of pages, which related to
 
 - Physical diseases and symptoms related to Covid, such as fever, pneumonia, etc.
