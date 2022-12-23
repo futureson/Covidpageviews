@@ -13,6 +13,7 @@ Pageviews of Wikipedia, the world’s largest online encyclopedia, could reflect
 
 # Our data
 {% include summary.html %}
+
 {% include time_evolution.html %}
 # Goal
 We want to know how and what people’s attention on health has changed during the different periods of the pandemic. Using the Coronawiki dataset, we obtain the pageviews of different topics related to health, which are then used to analyze their correlation with new COVID cases and the trends following mobility restrictions. 
