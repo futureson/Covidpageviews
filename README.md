@@ -106,7 +106,7 @@ For covid category, we find that pandemic and flu related pages has the highest 
 
 # Change points' impacts
 
-With the **intervention** data, we have the time for each event like first covid case, lockdown and so on. Here we want to show how these events affect people's internet behavior and how big that effect is. From previous studies, the wiki pages related to covid in Italy have the strongest correlation with the reality of covid.So we applied the analysis for Italian in the following examples.  
+With the **intervention** data, we have the time for each event like first covid case, lockdown and so on. Here we want to show how these events affect people's internet behavior and how big that effect is. From previous studies, the wiki pages related to covid in Italy have the strongest correlation with the reality of covid.So we applied the analysis for Italian in the following examples.  The following figure shows the pageviews of "Covid" for different intervention events.
 
 {% include it_time.html %}
 
@@ -114,7 +114,7 @@ Here, we applied the breakpoint regression of covid-related page traffic under d
 
  {% include mental_it_time.html %}
 
- On the other hand, the analysis of mental health is not exactly the same. Because of the emergence of covid, the attention to mental health-related pages is significantly different from that in 2019. It is gradually increasing as the dissemination time of covid increases. But when significant events related to covid occur, there is a significant decrease in attention to mental health, which may due to the sudden attention to covid have led to the neglect of mental health.
+ On the other hand, the analysis of mental health is not exactly the same. As shown above, because of the emergence of covid, the attention to mental health-related pages is significantly different from that in 2019. It is gradually increasing as the dissemination time of covid increases. But when significant events related to covid occur, there is a significant decrease in attention to mental health, which may due to the sudden attention to covid have led to the neglect of mental health.
 
  {% include cate_time_rdd.html %}
 
