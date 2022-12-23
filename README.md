@@ -12,8 +12,32 @@ COVID -19 has caused huge and important shifts in people’s lives due to the im
 Pageviews of **Wikipedia**, the world’s largest online encyclopedia, could reflect the major developments and shifts in people’s attention during the lifetime of this pandemic. It is critical to track the digital footprints above, which will empower governments to know what the public values thus better responding to potential public health emergencies in the future.
 
 # Our data
+
+Here are the datasets we got or collected:
+ 
+- Mobility data from Google and Apple
+- Covid cases data from WHO and Johns Hopkins University
+- Pageviews from the Wiki dataset
+ 
+You can find the complete data about this story here, and more detailed data for the begin of the journey can be found here. For a more detailed description of the data, you can refer to this article.
+
+**Mobility** data describes the daily percentage change in people's time in different places, while Covid data collected tell us the daily new cases. For people's online life, we have selected a total of 544 different pages in 3 categories to analyse the change in the number of page views per day or per week.
+ 
+The outbreak of Covid in most countries was in the spring of 2020, and we are interested in the mobility of people in the unusual year of 2020, the association of wiki page views with the outbreak, especially from January to October 2020, when Covid was more severe. As a comparison, we also collected data for the same time period in 2019 as a reference for a typical year. What's more, we also have the data discribing the public events of each area, such as the time of first case etc..
+ 
+In total, we collected wiki pages in 13 different languages, corresponding to 24 different countries，which is shown in the figure below. Thanks to the fact that each entry in the wiki dataset has the same QID for different languages, we only need to identify the entries under the English category to collect all the data. Of course, not all entries will be present under all languages, so there will be a little difference between languages in our dataset. To correspond to the countries in the mobility dataset and Covid cases, we assign different countries according to the proportion of the population speaking different languages. The story we are telling is not about the U.S. and UK, but rather about English speaking countries, etc.
+ 
 {% include summary.html %}
 
+Which wiki pages to choose for analysis? In our story, we are concerned with three types of pages, which related to
+
+- Physical diseases and symptoms related to Covid, such as fever, pneumonia, etc.
+- Physical illnesses and symptoms not related to Covid, such as cancer, chronic diseases, etc.
+- Mental health-related diseases and symptoms, such as anxiety, depression, etc.
+ 
+Health problems related to Covid are a complex topic, and we would like to make a classification here as simple as possible to facilitate further analysis. We relate the impact of Covid on each individual's physical and mental health, etc. Physical health can be divided into those directly related to Covid and those unrelated to Covid. Within each of these broad categories, we further categorised the words according to their nature to obtain more detailed characteristics. By clicking on the pie chart above, more detailed information will be provided.
+ 
+Here we show an overview of how the pageviews change over time. 
 {% include time_evolution.html %}
 # Goal
 We want to know how and what people’s attention on health has changed during the different periods of the pandemic. Using the Coronawiki dataset, we obtain the pageviews of different topics related to health, which are then used to analyze their correlation with new COVID cases and the trends following mobility restrictions. 
@@ -71,8 +95,12 @@ A further interesting causal question would be what people are searching when mo
 For covid category, we find that pandemic and flu related pages has the highest correlation, potential explanation is people searching for past pandemics and trying to find similarities (such as Hong Kong flu in 1968 and Spanish flu in 1918), they are also engaging in searching covid related symptoms (such as fatigue and fever). As for mental health, the click on anxiety, death and violence are highly related to mobility change, which could help support the analysis that social distancing increase people’s worries and anxiety about COVID-19. Lastly, if we look at the non-covid related pages, we can see a decrease in the cancer related pages, which reflects a shift in attention from cancer to covid symptoms.
 
 
-# Change points' Impacts
+# Change points' impacts
+
+With the **intervention** data, we have the time for each event like first covid case, lockdown and so on. Here we want to show how these events affect people's internet behavior and how big that effect is. 
+
 {% include it_time.html %}
+
 
 # Conclusion
 
