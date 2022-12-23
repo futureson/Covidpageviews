@@ -49,7 +49,7 @@ We want to know how and what people’s attention on health has changed during t
 
 # Research questions
 
-1. Is there any evidence showing that the trend of pageviews associated with COVID-19 is related to COVID infections? If it does, what’s their causation?How about the noncovid decreases and mental issues?
+1. Is there any evidence showing that the trend of pageviews associated with COVID-19 is related to COVID infections? If it does, what’s their causation?How about the noncovid decreases and mental issues? 
 2. The stringent policies implemented during the Coronavirus pandemic had reduced human movements. We wonder if there is a correlation between the Wiki pageviews and mobility change? If it does, what’s their causality and what can we infer from the data?
 3. How attention to different Wiki topics affected by intervention events?
 
@@ -106,11 +106,11 @@ For covid category, we find that pandemic and flu related pages has the highest 
 
 # Change points' impacts
 
-With the **intervention** data, we have the time for each event like first covid case, lockdown and so on. Here we want to show how these events affect people's internet behavior and how big that effect is. 
+With the **intervention** data, we have the time for each event like first covid case, lockdown and so on. Here we want to show how these events affect people's internet behavior and how big that effect is. From previous studies, the wiki pages related to covid in Italy have the strongest correlation with the reality of covid.So we applied the analysis for Italian in the following examples.  
 
 {% include it_time.html %}
 
-From previous studies, the wiki pages related to covid have the strongest correlation with the reality of covid. Here, we applied the breakpoint regression of covid-related page traffic under different events and found that attention for covid-related pages peaked at moments when the government took severe social isolation measures (e.g., school closures, lockdown declarations). After that,  people's attention to covid-related pages dropped significantly after these events. The emergence of the first infection rate and the first death case significantly increased the attention to covid-related information.
+Here, we applied the breakpoint regression of covid-related page traffic under different events and found that attention for covid-related pages peaked at moments when the government took severe social isolation measures (e.g., school closures, lockdown declarations). After that,  people's attention to covid-related pages dropped significantly after these events. The emergence of the first infection rate and the first death case significantly increased the attention to covid-related information.
 
  {% include mental_it_time.html %}
 
