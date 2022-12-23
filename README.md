@@ -101,10 +101,16 @@ With the **intervention** data, we have the time for each event like first covid
 
 {% include it_time.html %}
 
+From previous studies, the wiki pages related to covid have the strongest correlation with the reality of covid. Here, we applied the breakpoint regression of covid-related page traffic under different events and found that attention for covid-related pages peaked at moments when the government took severe social isolation measures (e.g., school closures, lockdown declarations). After that,  people's attention to covid-related pages dropped significantly after these events. The emergence of the first infection rate and the first death case significantly increased the attention to covid-related information.
+
+ {% include mental_it_time.html %}
+
+ On the other hand, the analysis of mental health is not exactly the same. Because of the emergence of covid, the attention to mental health-related pages is significantly different from that in 2019. It is gradually increasing as the dissemination time of covid increases. But when significant events related to covid occur, there is a significant decrease in attention to mental health, which may due to the sudden attention to covid have led to the neglect of mental health.
+
 
 # Conclusion
 
-- From the pageviews analysis, we know that government have delay reactions when facing with COVID-19, and the implementation of policies generally take several weeks. We also observe that when people are forced to stay at home, they search more on covid-related pages, especially those related pandemic and physical health. Besides, restrict movement measures damage people’s mental health, they are searching on Wikipedia to relief anxiety and depression. 
+2. From the pageviews analysis, we know that government have delay reactions when facing with COVID-19, and the implementation of policies generally take several weeks. We also observe that when people are forced to stay at home, they search more on covid-related pages, especially those related pandemic and physical health. Besides, restrict movement measures damage people’s mental health, they are searching on Wikipedia to relief anxiety and depression. 
 
 # One last word
 Thanks to the ADA course for providing us with the original ideas and datasets, although the epidemic is now a thing of the past, we hope we could understand the impact of the COVID-19 on people's behavior through data analysis methods. Some of the research methods in this website are referenced from [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](https://arxiv.org/pdf/2005.08505.pdf) and [Population-scale dietary interests during the COVID-19 pandemic](https://www.nature.com/articles/s41467-022-28498-z), which are two amazing papers!
