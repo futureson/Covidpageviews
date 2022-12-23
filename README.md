@@ -104,7 +104,7 @@ With the **intervention** data, we have the time for each event like first covid
 
 # Conclusion
 
-2. From the pageviews analysis, we know that government have delay reactions when facing with COVID-19, and the implementation of policies generally take several weeks. We also observe that when people are forced to stay at home, they search more on covid-related pages, especially those related pandemic and physical health. Besides, restrict movement measures damage people’s mental health, they are searching on Wikipedia to relief anxiety and depression. 
+- From the pageviews analysis, we know that government have delay reactions when facing with COVID-19, and the implementation of policies generally take several weeks. We also observe that when people are forced to stay at home, they search more on covid-related pages, especially those related pandemic and physical health. Besides, restrict movement measures damage people’s mental health, they are searching on Wikipedia to relief anxiety and depression. 
 
 # One last word
 Thanks to the ADA course for providing us with the original ideas and datasets, although the epidemic is now a thing of the past, we hope we could understand the impact of the COVID-19 on people's behavior through data analysis methods. Some of the research methods in this website are referenced from [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](https://arxiv.org/pdf/2005.08505.pdf) and [Population-scale dietary interests during the COVID-19 pandemic](https://www.nature.com/articles/s41467-022-28498-z), which are two amazing papers!
