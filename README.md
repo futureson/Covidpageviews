@@ -11,7 +11,7 @@ COVID-19 has caused huge and important shifts in people’s lives due to the imp
 
 Pageviews of **Wikipedia**, the world’s largest online encyclopedia, could reflect the major developments and shifts in people’s attention during the lifetime of this pandemic. It is critical to track the digital footprints above, which will empower governments to know what the public values thus better responding to potential public health emergencies in the future.
 
-# Our data
+# Data
 
 Here are the datasets we got or collected:
  
@@ -43,7 +43,7 @@ Health problems related to Covid are a complex topic, and we would like to make 
 Here we show an overview of how the pageviews change over time. 
 {% include time_evolution.html %}
 
-# Our goal
+# Goal
 
 We want to know how and what people’s attention on health has changed during the different periods of the pandemic. Using the Coronawiki dataset, we obtain the pageviews of different topics related to health, which are then used to analyze their correlation with new COVID cases and the trends following mobility restrictions. 
 
@@ -53,7 +53,7 @@ We want to know how and what people’s attention on health has changed during t
 2. The stringent policies implemented during the Coronavirus pandemic had reduced human movements. We wonder if there is a correlation between the Wiki pageviews and mobility change? If it does, what’s their causality and what can we infer from the data?
 3. How attention to mental illness has changed during the pandemic?
 
-# New covid cases and pageviews correlation
+# New COVID cases and pageviews correlation
 Analyzing the pageviews of Wikipedia articles can give us an insight into how people are using them to share and find information during this unprecedented time. How can the spread of the diseases influence the pageview of Covid-related articles? Is it possible to use this trend to identify other diseases that might be brought by Covid? As mentioned previously, all the collected articles were divided into 3 groups manually, including Covid, non-Covid, and mental health. The figure below shows how the pageviews and new cases change over time for the 3 categories.   
 
 ![image](fig/timeseries.png)
@@ -94,13 +94,15 @@ The same shift property applies to other countries as well, as you can see from 
 <!-- ![image](fig/best_shift.png) -->
 
 ![image](fig/shift.png)
+
 Then, we are curious about the correlation between each category (covid, non-covid, mental) and mobility change across countries. In order to eliminate the impact of action delay, we use the pageviews data after shift and compute its correlation with mobility. As we can see from the image, covid-related pageviews has a significant positive relation with mobility change, but the correlation of non-covid and mental pageviews is more dispersed and less significant, even though the correlation is still positive in most countries. This means people have relevtively consistent behaviors when searching for covid-related pages, but regarding non-covid pages and mental pages, their behavior differ in the country level. 
 {% include mobility_corr.html %}
 
 A further interesting causal question would be what people are searching when mobility constraints are implemented. In order to answer this question, we focus on more granular pages, and calculate their relation between mobility. Here, we show the top 20 largest for covid and mental related pages, and top 20 smallest for non-covid related pages. 
-![image](fig/mobility_barh.png)
-For covid category, we find that pandemic and flu related pages has the highest correlation, potential explanation is people searching for past pandemics and trying to find similarities (such as Hong Kong flu in 1968 and Spanish flu in 1918), they are also engaging in searching covid related symptoms (such as fatigue and fever). As for mental health, the click on anxiety, death and violence are highly related to mobility change, which could help support the analysis that social distancing increase people’s worries and anxiety about COVID-19. Lastly, if we look at the non-covid related pages, we can see a decrease in the cancer related pages, which reflects a shift in attention from cancer to covid symptoms.
 
+![image](fig/mobility_barh.png)
+
+For covid category, we find that pandemic and flu related pages has the highest correlation, potential explanation is people searching for past pandemics and trying to find similarities (such as Hong Kong flu in 1968 and Spanish flu in 1918), they are also engaging in searching covid related symptoms (such as fatigue and fever). As for mental health, the click on anxiety, death and violence are highly related to mobility change, which could help support the analysis that social distancing increase people’s worries and anxiety about COVID-19. Lastly, if we look at the non-covid related pages, we can see a decrease in the cancer related pages, which reflects a shift in attention from cancer to covid symptoms.
 
 # Change points' impacts
 
