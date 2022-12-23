@@ -146,4 +146,4 @@ Work is distributed equally to all team members
 
 **Qiming Sun**: Time series and regression analysis and website building
 
-**ShuShu Zhang**: Topic classification and data story building
+**Shushu Zhang**: Topic classification and data story building
