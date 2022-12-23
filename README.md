@@ -43,7 +43,7 @@ Health problems related to Covid are a complex topic, and we would like to make 
 Here we show an overview of how the pageviews change over time. 
 {% include time_evolution.html %}
 
-# Goal
+# Our goal
 
 We want to know how and what people’s attention on health has changed during the different periods of the pandemic. Using the Coronawiki dataset, we obtain the pageviews of different topics related to health, which are then used to analyze their correlation with new COVID cases and the trends following mobility restrictions. 
 
@@ -53,7 +53,7 @@ We want to know how and what people’s attention on health has changed during t
 2. The stringent policies implemented during the Coronavirus pandemic had reduced human movements. We wonder if there is a correlation between the Wiki pageviews and mobility change? If it does, what’s their causality and what can we infer from the data?
 3. How attention to mental illness has changed during the pandemic?
 
-# The correlations between new covid cases and pageviews
+# New covid cases and pageviews correlation
 Analyzing the pageviews of Wikipedia articles can give us an insight into how people are using them to share and find information during this unprecedented time. How can the spread of the diseases influence the pageview of Covid-related articles? Is it possible to use this trend to identify other diseases that might be brought by Covid? As mentioned previously, all the collected articles were divided into 3 groups manually, including Covid, non-Covid, and mental health. The figure below shows how the pageviews and new cases change over time for the 3 categories.   
 
 ![image](fig/timeseries.png)
@@ -80,7 +80,7 @@ When it comes to mental health, we found out that the correlation coefficients a
 
 ![image](fig/mental20.png)
 
-# The correlation between mobility change and pageviews
+# Mobility change and pageviews correlation
 
 Now, let’s focus on the relationship between mobility change and pageviews. During 2020, many countries declared a state of emergency and implemented mobility restrictions, including stay-at-home lockdowns, cancellation of events and public gatherings, and restrictions on travels. These policies helped to slow the spread of the virus, but also brought side effects to people’s mental health. Are people more concerned about their physical health or mental health during lockdown? In order to answer this question, we introduce **Google Mobility Reports**. By using the similar analysis method as above, we could have a deeper understanding of the relationship between people’s attention shift and their movement change.
 
