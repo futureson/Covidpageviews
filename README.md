@@ -107,11 +107,20 @@ From previous studies, the wiki pages related to covid have the strongest correl
 
  On the other hand, the analysis of mental health is not exactly the same. Because of the emergence of covid, the attention to mental health-related pages is significantly different from that in 2019. It is gradually increasing as the dissemination time of covid increases. But when significant events related to covid occur, there is a significant decrease in attention to mental health, which may due to the sudden attention to covid have led to the neglect of mental health.
 
+ {% include cate_it_time.html %}
+
+The image above shows how people's attention to all wiki topics has changed at the point where people's mobility has changed(**Mobility**). The previous results for covid and mental health remain the same, while for non-covid disorders, there is a very significant change at the mobility change point. The main effect is mainly on chronic diseases. Such results suggest that covid is causing a medical shortage and that measures to restrict mobility significantly impact those who need to take medication for a long time.
+
+We compare the impact of different countries on the covid topic in the figure below, and the chosen event is still the point at which people's mobility changes. There are significant differences in behaviour patterns across countries and regions. Feel free to play with this figure!
+
+
+ {% include coun_it_time.html %}
 
 
 # Conclusion
 
 1. From the pageviews analysis, we know that government have delay reactions when facing with COVID-19, and the implementation of policies generally take several weeks. We also observe that when people are forced to stay at home, they search more on covid-related pages, especially those related pandemic and physical health. Besides, restrict movement measures damage people’s mental health, they are searching on Wikipedia to relief anxiety and depression. 
+2. People in different countries and regions react differently to covid. Despite increasing concern about covid, people do not seem to be surprised by the blockade, which has had less impact than the discovery of the first infected patient in their region. Covid has also led to increased mental health needs, but this needs to be given more attention by society when making decisions. Restrictions on mobility may significantly impact people with other diseases requiring long-term medication, and policymakers must consider this when developing policies.
 
 # One last word
 Thanks to the ADA course for providing us with the original ideas and datasets, although the epidemic is now a thing of the past, we hope we could understand the impact of the COVID-19 on people's behavior through data analysis methods. Some of the research methods in this website are referenced from [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](https://arxiv.org/pdf/2005.08505.pdf) and [Population-scale dietary interests during the COVID-19 pandemic](https://www.nature.com/articles/s41467-022-28498-z), which are two amazing papers!
