@@ -40,15 +40,15 @@ Health problems related to Covid are a complex topic, and we would like to make 
 
 |          |   Category       | Description                                     |
 |----------|------------------|-------------------------------------------------|
-| Covid    | flu              |                                                 |
-|          | gastrointestinal |                                                 |
-|          | pandemic         |                                                 |
-|          | respiratory      |                                                 |
-| Noncovid | cancer           |                                                 |
-|          | chronic          |                                                 |
+| Covid    | flu              | Common flu symptoms, virus and related vaccines |
+|          | gastrointestinal | Gastrointestinal symptoms like vomiting         |
+|          | pandemic         | Pandemic in the past                            |
+|          | respiratory      | Respiratory-related symptoms, like pneumonia    |
+| Noncovid | cancer           | Types of cancer and related research institutes |
+|          | chronic          | Common chronic diseases, excluding cancer       |
 | Mental   | death            | Pageviews related to death and suicide          |
 |          | violence         | Pageviews about abuse and domestic violence     |
-|          | mild             | Mild mental symptoms like anxiety and depressio |
+|          | mild             | Mild mental symptoms like anxiety and depression|
 |          | disorder         | Severe mental illness                           |
  
 Here we show an overview of how the pageviews change over time. 
