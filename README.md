@@ -140,7 +140,7 @@ Thanks to the ADA course for providing us with the original ideas and datasets, 
 
 Work is distributed equally to all team members
 
-**Hailin Liu**: Data Processing and data story building 
+**Hailin Liu**: Data correlation analysis and data story building  
 
 **Jiawei Chen**: Data Processing and analysis, data story building  
 
