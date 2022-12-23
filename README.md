@@ -121,14 +121,14 @@ From previous studies, the wiki pages related to covid have the strongest correl
 
  On the other hand, the analysis of mental health is not exactly the same. Because of the emergence of covid, the attention to mental health-related pages is significantly different from that in 2019. It is gradually increasing as the dissemination time of covid increases. But when significant events related to covid occur, there is a significant decrease in attention to mental health, which may due to the sudden attention to covid have led to the neglect of mental health.
 
- {% include cate_it_time.html %}
+ {% include cate_time_rdd.html %}
 
 The image above shows how people's attention to all wiki topics has changed at the point where people's mobility has changed(**Mobility**). The previous results for covid and mental health remain the same, while for non-covid disorders, there is a very significant change at the mobility change point. The main effect is mainly on chronic diseases. Such results suggest that covid is causing a medical shortage and that measures to restrict mobility significantly impact those who need to take medication for a long time.
 
 We compare the impact of different countries on the covid topic in the figure below, and the chosen event is still the point at which people's mobility changes. There are significant differences in behaviour patterns across countries and regions. Feel free to play with this figure!
 
 
- {% include coun_it_time.html %}
+ {% include coun_time_rdd.html %}
 
 
 # Conclusion
