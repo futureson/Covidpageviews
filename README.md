@@ -38,7 +38,7 @@ Which wiki pages to choose for analysis? In our story, we are concerned with thr
 Health problems related to Covid are a complex topic, and we would like to make a classification here as simple as possible to facilitate further analysis. We relate the impact of Covid on each individual's physical and mental health, etc. Physical health can be divided into those directly related to Covid and those unrelated to Covid. Within each of these broad categories, we further categorised the words according to their nature to obtain more detailed characteristics. By clicking on the pie chart above, more detailed information will be provided.
 
 
-|          |                  | Description                                     |
+|          |   Category       | Description                                     |
 |----------|------------------|-------------------------------------------------|
 | Covid    | flu              |                                                 |
 |          | gastrointestinal |                                                 |
