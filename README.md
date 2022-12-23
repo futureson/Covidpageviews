@@ -9,7 +9,7 @@
 
 COVID -19 has caused huge and important shifts in people’s lives due to the implementation of unprecedented non-pharmaceutical interventions, which in turn created challenges that did not only contain physical health but mental health as well. This fact has fostered an unforeseen effort to better identify how the pandemic extensively affects human needs and health concerns.  
 
-Pageviews of Wikipedia, the world’s largest online encyclopedia, could reflect the major developments and shifts in people’s attention during the lifetime of this pandemic. It is critical to track the digital footprints above, which will empower governments to know what the public values thus better responding to potential public health emergencies in the future.
+Pageviews of **Wikipedia**, the world’s largest online encyclopedia, could reflect the major developments and shifts in people’s attention during the lifetime of this pandemic. It is critical to track the digital footprints above, which will empower governments to know what the public values thus better responding to potential public health emergencies in the future.
 
 # Our data
 {% include summary.html %}
@@ -21,7 +21,7 @@ We want to know how and what people’s attention on health has changed during t
 # Research questions
 1. Is there any evidence showing that the trend of pageviews associated with COVID-19 is related to COVID infections? If it does, what’s their causation?
 2. How attention to mental illness has changed during the pandemic. Are these changes mainly due to social and psychological changes caused by the epidemic lockdown or due to people's panic about this new disease? 
-3. Previously, people's concerns about the disease followed a fixed pattern, but the outbreak of COVID-19 may have changed that. How did these diseases such as cancer, which are not clearly associated with COVID-19, change during the pandemic? Are they related to changes in cases of COVID-19?
+3. The stringent policies implemented during the Coronavirus pandemic had reduced human movements. We wonder if there is a correlation between the Wiki pageviews and mobility change? If it does, what’s their causality and what can we infer from the data?
 
 # The correlations between new covid cases and pageviews
 Analyzing the pageviews of Wikipedia articles can give us an insight into how people are using them to share and find information during this unprecedented time. How can the spread of the diseases influence the pageview of Covid-related articles? Is it possible to use this trend to identify other diseases that might be brought by Covid? As mentioned previously, all the collected articles were divided into 3 groups manually, including Covid, non-Covid, and mental health. The figure below shows how the pageviews and new cases change over time for the 3 categories.   
@@ -52,7 +52,7 @@ When it comes to mental health, we found out that the correlation coefficients a
 
 # The correlation between mobility change and pageviews
 
-Now, let’s focus on the relationship between mobility change and pageviews. During 2020, many countries declared a state of emergency and implemented mobility restrictions, including the closure of entertainment venues and home isolation. Using the similar analysis method as above, we want to know how people’s attention shift related to their movement change.
+Now, let’s focus on the relationship between mobility change and pageviews. During 2020, many countries declared a state of emergency and implemented mobility restrictions, including stay-at-home lockdowns, cancellation of events and public gatherings, and restrictions on travels. These policies helped to slow the spread of the virus, but also brought side effects to people’s mental health. Are people more concerned about their physical health or mental health during lockdown? In order to answer this question, we introduce **Google Mobility Reports**. By using the similar analysis method as above, we could have a deeper understanding of the relationship between people’s attention shift and their movement change.
 
 As we can see from the figure below, there is clear relation between pageviews and mobility change in Italy. Unlike the new covid case and pageviews cases, we observe something special here, which is a parallel shift among covid related pageviews and mobility. On the other hand, we can not observe similar result in the non-covid and mental cases. This phenomenon drew our attention, we wonder if other countries share the same situation or not, and what would be the best shift that gives the highest correlation. 
 ![image](fig/page_mobi_it.png)
