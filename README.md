@@ -142,8 +142,8 @@ Work is distributed equally to all team members
 
 **Hailin Liu**: Data correlation analysis and data story building  
 
-**Jiawei Chen**: Data Processing and analysis, data story building  
+**Jiawei Chen**: Data collection and processing, correlation analysis and data story building   
 
 **Qiming Sun**: Time series and regression analysis and website building
 
-**ShuShu Zhang**: Data correlation analysis and data story building 
+**ShuShu Zhang**: Topic classification and data story building
