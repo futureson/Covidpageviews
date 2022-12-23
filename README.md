@@ -7,7 +7,7 @@
 
 *“The Coronavirus Disease 2019 (COVID-19) pandemic is one of the most impactful crises that shook global economies, restricted social activities, emptied public spaces, infected 182 million people, and has taken more than 3.94 million lives from 213 countries (as of July 2021) since its outbreak in December of 2019.”*
 
-COVID -19 has caused huge and important shifts in people’s lives due to the implementation of unprecedented non-pharmaceutical interventions, which in turn created challenges that did not only contain physical health but mental health as well. This fact has fostered an unforeseen effort to better identify how the pandemic extensively affects human needs and health concerns.  
+COVID-19 has caused huge and important shifts in people’s lives due to the implementation of unprecedented non-pharmaceutical interventions, which in turn created challenges that did not only contain physical health but mental health as well. This fact has fostered an unforeseen effort to better identify how the pandemic extensively affects human needs and health concerns.  
 
 Pageviews of **Wikipedia**, the world’s largest online encyclopedia, could reflect the major developments and shifts in people’s attention during the lifetime of this pandemic. It is critical to track the digital footprints above, which will empower governments to know what the public values thus better responding to potential public health emergencies in the future.
 
@@ -19,13 +19,13 @@ Here are the datasets we got or collected:
 - Covid cases data from WHO and Johns Hopkins University
 - Pageviews from the Wiki dataset
  
-You can find the complete data about this story here, and more detailed data for the begin of the journey can be found here. For a more detailed description of the data, you can refer to this article.
+You can find the complete data about this story [here](https://github.com/epfl-ada/ada-2022-project-wizards2122/tree/main/data), and more detailed data for the begin of the journey can be found [here](https://github.com/epfl-dlab/wiki_pageviews_covid). For a more detailed description of the data, you can refer to this paper: [Sudden Attention Shifts on Wikipedia During the COVID-19 Crisis](https://arxiv.org/pdf/2005.08505.pdf).
 
-**Mobility** data describes the daily percentage change in people's time in different places, while Covid data collected tell us the daily new cases. For people's online life, we have selected a total of 544 different pages in 3 categories to analyse the change in the number of page views per day or per week.
+**Mobility** data describes the daily percentage change of people's time in different places, while Covid data tell us the daily new cases. For people's online behaviour, we have selected a total of 544 different pages in 3 categories to analyse the change in the number of page views per day or per week.
  
 The outbreak of Covid in most countries was in the spring of 2020, and we are interested in the mobility of people in the unusual year of 2020, the association of wiki page views with the outbreak, especially from January to October 2020, when Covid was more severe. As a comparison, we also collected data for the same time period in 2019 as a reference for a typical year. What's more, we also have the data discribing the public events of each area, such as the time of first case etc..
  
-In total, we collected wiki pages in 13 different languages, corresponding to 24 different countries，which is shown in the figure below. Thanks to the fact that each entry in the wiki dataset has the same QID for different languages, we only need to identify the entries under the English category to collect all the data. Of course, not all entries will be present under all languages, so there will be a little difference between languages in our dataset. To correspond to the countries in the mobility dataset and Covid cases, we assign different countries according to the proportion of the population speaking different languages. The story we are telling is not about the U.S. and UK, but rather about English speaking countries, etc.
+In total, we collected wiki pages in 12 different languages, corresponding to 24 different countries，which is shown in the figure below. Thanks to the fact that each entry in the wiki dataset has the same QID for different languages, we only need to identify the entries under the English category to collect all the data. Of course, not all entries will be present under all languages, so there will be a little difference between languages in our dataset. To correspond to the countries in the mobility dataset and Covid cases, we assign different countries according to the proportion of the population speaking different languages. The story we are telling is not about the U.S. and UK, but rather about English speaking countries, etc.
  
 {% include summary.html %}
 
@@ -42,9 +42,11 @@ Here we show an overview of how the pageviews change over time.
 {% include time_evolution.html %}
 
 # Goal
+
 We want to know how and what people’s attention on health has changed during the different periods of the pandemic. Using the Coronawiki dataset, we obtain the pageviews of different topics related to health, which are then used to analyze their correlation with new COVID cases and the trends following mobility restrictions. 
 
 # Research questions
+
 1. Is there any evidence showing that the trend of pageviews associated with COVID-19 is related to COVID infections? If it does, what’s their causation?
 2. The stringent policies implemented during the Coronavirus pandemic had reduced human movements. We wonder if there is a correlation between the Wiki pageviews and mobility change? If it does, what’s their causality and what can we infer from the data?
 3. How attention to mental illness has changed during the pandemic?
@@ -113,15 +115,17 @@ From previous studies, the wiki pages related to covid have the strongest correl
 
 The image above shows how people's attention to all wiki topics has changed at the point where people's mobility has changed(**Mobility**). The previous results for covid and mental health remain the same, while for non-covid disorders, there is a very significant change at the mobility change point. The main effect is mainly on chronic diseases. Such results suggest that covid is causing a medical shortage and that measures to restrict mobility significantly impact those who need to take medication for a long time.
 
-We compare the impact of different countries on the covid topic in the figure below, and the chosen event is still the point at which people's mobility changes. There are significant differences in behaviour patterns across countries and regions. Feel free to play with this figure!
+We compare the impact of different countries on the covid topic in the figure below, and the chosen event is still the point at which people's mobility changes. There are significant differences in behaviour patterns across countries and regions. 
 
 
  {% include coun_time_rdd.html %}
 
+> Feel free to play with all the figures!
 
 # Conclusion
 
 1. From the pageviews analysis, we know that government have delay reactions when facing with COVID-19, and the implementation of policies generally take several weeks. We also observe that when people are forced to stay at home, they search more on covid-related pages, especially those related pandemic and physical health. Besides, restrict movement measures damage people’s mental health, they are searching on Wikipedia to relief anxiety and depression. 
+
 2. People in different countries and regions react differently to covid. Despite increasing concern about covid, people do not seem to be surprised by the blockade, which has had less impact than the discovery of the first infected patient in their region. Covid has also led to increased mental health needs, but this needs to be given more attention by society when making decisions. Restrictions on mobility may significantly impact people with other diseases requiring long-term medication, and policymakers must consider this when developing policies.
 
 # One last word
@@ -130,3 +134,11 @@ Thanks to the ADA course for providing us with the original ideas and datasets, 
 # Our team
 
 Work is distributed equally to all team members
+
+**Hailin Liu**: Data Processing and data story building 
+
+**Jiawei Chen**: Data Processing and analysis, data story building  
+
+**Qiming Sun**: Time series and regression analysis and website building
+
+**ShuShu Zhang**: Data correlation analysis and data story building 
